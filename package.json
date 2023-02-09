@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "icon kit template",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate-icons": "node index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "postcss": "^8.4.17",
+    "@vusion/webfonts-generator": "^0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizs4h/icon-kit-template.git"
+  },
+  "keywords": [
+    "icon",
+    "font-icons",
+    "svg-to-webfonts",
+    "icon-kit"
+  ],
+  "author": "azizs4h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azizs4h/icon-kit-template/issues"
+  },
+  "homepage": "https://github.com/azizs4h/icon-kit-template#readme"
+}
